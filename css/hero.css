@@ -1,0 +1,204 @@
+
+
+.hero{
+    background: linear-gradient(rgba(20, 37, 56, 0.73), 
+      rgba(0, 0, 0, 0.73)), 
+      url("../image/main-pick.jpg") center no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color: var(--p-color);
+}
+.hero-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-top: 5.3rem;
+
+}
+
+.hero-contact, .hero-phone{
+    display: flex;
+}
+.hero-contact{
+    justify-content: space-between;
+}
+.hero-phone div{
+    padding-right: 15px;
+    font-size: 15px;
+}
+.hero-icon i{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.hero-center{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa, .inst, .twt{
+    transition: 0.1s;
+}
+.fa:hover{
+    color: rgb(6, 158, 218);
+    transition: 0.1s;
+}
+.inst:hover{
+    color: #f05757;
+    transition: 0.1s;
+}
+.twt:hover{
+    color: rgb(6, 158, 218);
+    transition: 0.1s;
+}
+.row-2 h1{
+    margin-top: 10rem;
+    font-size: 55px;
+    line-height: 55px;
+    color: var(--helf-orange);
+}
+.row-3 p{
+    padding: 3rem 0;
+    width: 600px;
+    margin: auto;
+    font-size: 22px;
+}
+.button-1{
+    font-size: 20px;
+    padding: 5px 25px 10px 25px; 
+    color: var(--helf-orange);
+    border: 2px solid var(--helf-orange);
+    box-shadow: inset 0 0 0 0 var(--helf-orange);
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.button-1:hover{
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 var(--helf-orange);
+}
+
+
+
+.hero-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1080px;
+    margin: auto;
+    margin-top: -152px;
+    color: var(--p-color);
+}
+
+
+.hero-worck-time{
+    bottom: 0px;
+    background-color: var(--dark-blue);
+    border-top-right-radius: 50px;
+}
+.work-time{
+    padding: 15px 30px;
+}
+.work-time div:first-child{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.work-time div div{
+    font-size: 22px;
+}
+.work-time div li{
+    font-size: 20px;
+}
+.work-time i{
+    margin-right: 11px;
+}
+
+.scroll-bottom{
+    bottom: 30px;
+    cursor: pointer;
+}
+.scroll-bottom i{
+    font-size: 18px;
+    padding: 13px 15px;
+    background-color: var(--dark-blue);
+    
+
+}
+
+@media only screen and (max-width: 1367px) {
+    .row-2 h1{
+        margin-top: 5.5rem;
+    }
+    .row-3 p{
+        font-size: 18px;
+    }
+    .scroll-bottom{
+
+        right: 11%;
+
+    }
+  }
+
+@media only screen and (max-width: 991px) {
+  .nav, .hero-bottom{
+    max-width: 90%;
+    margin: auto;
+  }
+  .hero-container{
+    max-width: 90%;
+    margin: auto;
+    padding-top: 5.6rem;
+  }
+  .row-2 h1{
+    margin-top: 12rem;
+}
+  .hero-bottom{
+    margin-top: -152px;
+  }
+}
+  @media only screen and (max-width: 767px) {
+    .hero-contact{
+        display: none;
+    }
+    .row-2 h1{
+        margin-top: 20rem;
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .row-3 p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .button-1{
+        font-size: 16px;
+    }
+    .scroll-bottom{
+        display: none  !important;
+       }
+   
+  }
+  @media only screen and (max-width: 575px) {
+    .hero-bottom{
+        margin-top: -132px;
+    }
+    .work-time div div{
+        font-size: 18px;
+    }
+    .work-time div li{
+        font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 415px) {
+    .row-2 h1{
+        margin-top: 22rem;
+    }
+  }
+  @media only screen and (max-width: 379px) {
+    .row-2 h1{
+        margin-top: 9rem;
+    }
+  }
